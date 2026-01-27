@@ -25,3 +25,10 @@ font-weight: 80px;
 font-weight: 500; 
 color: #000; 
 }
+
+footer {
+    font-size: 16px;
+    background-color:black;
+    color:#ffffff;
+    text-align:center;
+}
