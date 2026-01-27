@@ -1,0 +1,25 @@
+body{
+margin:0;
+}
+
+
+header { 
+background-color: #947AE5; 
+padding: 40px;
+
+} 
+
+
+.logo { 
+max-height: 80px; 
+} 
+
+.nav-link {
+color: #000 ; 
+font-weight: 80px; 
+} 
+
+.language-switch {
+font-weight: 500; 
+color: #000; 
+}
