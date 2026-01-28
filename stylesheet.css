@@ -22,11 +22,13 @@ max-height: 120px;
 .nav-link {
 color: #000 ; 
 font-weight: 80px; 
+font-size: 20px;
 } 
 
 .language-switch {
 font-weight: 500; 
 color: #000; 
+font-size: 20px;
 }
 
 main {
