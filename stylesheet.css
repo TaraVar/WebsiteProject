@@ -42,3 +42,29 @@ footer {
     margin-top: 80px;
 }
 
+.ajankohtaista h1 {
+ background-color: #838DE6;
+ color: white; 
+     
+    }
+.ajankohtaista h2{
+    background-color: #434254;
+    color:white;
+}
+
+.ajankohtaistakuva{
+float: right; 
+margin-right: 60px;
+background-color: #838DE6;
+
+}
+
+.kuvantausta{
+    background-color: #434254;
+    padding: 50px;
+    display:inline-block;
+    text-align: right;
+
+    
+}
+
