@@ -152,3 +152,11 @@ margin-top: 16px;
   margin-bottom: 20px;
 }
 
+.Yhteystiedot h2 {
+  margin-bottom: 16px;
+    background-color: #838DE6;
+    color: white; 
+    width: 900px;
+    margin: 16px auto 0px auto;
+    font-family:'Courier New', Courier, monospace
+}
