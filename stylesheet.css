@@ -29,32 +29,6 @@ font-weight: 500;
 color: #000; 
 }
 
-.Tuotteet h1 {
-    background-color: #838DE6;
-    color: white; 
-    width: 900px;
-    margin: 16px auto 0px auto;
-    font-family:'Courier New', Courier, monospace
-     
-    }
-.Tuotteet h2{
-    background-color: #434254;
-    color:white;
-    padding: 8px 16px 8px 16px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    font-family:'Courier New', Courier, monospace
-}
-
-.Tuotteet p{
-    background-color: #838DE6;
-    color: white; 
-    width: 900px;
-    margin: 16px auto 0px auto;
-    font-family:'Courier New', Courier, monospace   
-}
-
-
 main {
  flex: 1; }
 
@@ -65,6 +39,34 @@ footer {
     color:black;
     text-align:center;
     margin-top: 80px;
+}
+
+.Tuotteet h1 {
+ background-color: #838DE6;
+ color: white; 
+ width: 900px;
+margin: 16px auto 0px auto;
+font-family:'Courier New', Courier, monospace
+
+     
+    }
+.Tuotteet h2{
+    background-color: #434254;
+    color:white;
+    padding: 30px 40px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    float:right;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace
+}
+
+.Tuotteet p{
+    background-color: #838DE6;
+    color: white; 
+    width: 900px;
+    margin: 16px auto 0px auto;
+    font-family:'Courier New', Courier, monospace   
 }
 
 .ajankohtaista h1 {
