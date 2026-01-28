@@ -1,27 +1,35 @@
 <!DOCTYPE html>
-<html lang="fi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yhteystiedot </title>
-    <link rel="stylesheet" href="tyylit.css">
+    <title>Tuotteet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
+<body class="Tuotteet">
 
-<body class ="Yhteystiedot"> 
+        <header>
+    <div class="container">
+       <div class="row align-items-center">
+        <div class="col-md-6"><img src="Images/logo.png" alt="Nocco logo" class="logo"> </div>
 
-<header>
-    <img src="logo.png" alt="NOCCO logo" class="header-logo">
-    <nav>
-        <ul>
-            <li><a href="index.html">Etusivu</a></li>
-            <li><a href="#">Tuotteet</a></li>
-            <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
-            <li><a href="#">Ajankohtaista</a></li>
-        </ul>
-    </nav>
-</header>
-
-<main>
+            <div class="col-md-6"> 
+                <nav class="d-flex justify-content-end align-items-center">
+                    <ul class="nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Etusivu</a></li> 
+                        <li class="nav-item"><a class="nav-link" href="Tuotteet.html">Tuotteet</a></li> 
+                        <li class="nav-item"><a class="nav-link" href="Yhteystiedot.html">Yhteystiedot</a></li> 
+                        <li class="nav-item"><a class="nav-link" href="Ajankohtaista.html">Ajankohtaista</a></li>
+                    </ul>
+                    <a href="Svenska.html" class="ms-3 language-switch">Svenska</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    </header>
+   
+    <main>
     <section class="contact">
         <h2>Yhteystiedot</h2>
         <p><strong>Sähköposti:</strong> <a href="mailto:info@nocco.fi">info@nocco.fi</a></p>
@@ -29,19 +37,19 @@
     </section>
 </main>
 
-<footer>
-    <img src="Alalogo.png" alt="NOCCO footer logo" class="footer-logo">
-    <ul>
-        <li><a href="#">Cookies Settings</a></li>
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">NOCCON OY</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li>Tehtaankatu 27–29, Helsinki</li>
-        <li>@noccofinland</li>
-    </ul>
-</footer>
-
+                <footer>
+                <div class="row"> 
+                <div class="col-md-3 d-flex align-items-center"> <img src="Images/Alalogo.png" alt="Nocco logo" style="max-height: 40px;"> </div>
+                <div class="col-md-4">COOKIES SETTTINGS</div>
+                <div class="col-md-4">ABOUT US</div>
+                <div class="col-md-4">CONTACT US</div>
+                <div class="col-md-4">PRIVACY POLICY</div>
+                <div class="col-md-4">&copy; NOCON OY</div>
+                <div class="col-md-4">TEHTAANKATU 27-29, HELSINKI</div>
+             </footer>
+                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
- 
+
+
+
