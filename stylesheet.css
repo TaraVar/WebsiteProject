@@ -29,6 +29,10 @@ font-weight: 500;
 color: #000; 
 }
 
+.tuotteet h1 {
+    font-family:'Courier New', Courier, monospace
+}
+
 main {
  flex: 1; }
 
