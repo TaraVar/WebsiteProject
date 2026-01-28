@@ -134,49 +134,37 @@ margin-top: 16px;
 }
 
 
+.box {
+  padding: 30px;
+  min-height: 300px;
+}
 
 
+.info-box, .some-box {
+  background-color: #434254;
+  color: white;
+}
 
-.uutuudet-box{
+.uutuudet-box {
   background-color: #838DE6;
   color: white;
-  border-radius: 0;
-  min-height: 300px;
 }
 
-.info-box, .some-box{
- background-color: #434254;
-  color: white;
-  border-radius: 0;
-  min-height: 300px;
-}
 
+.info-box h1,
+.some-box h3 {
+  background-color: #434254;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  margin-bottom: 20px;
+}
 
 .uutuudet-box h2{
-  background-color: #838DE6;
+ background-color: #838DE6;
   padding: 10px;
   text-align: center;
   font-family: 'Courier New', monospace;
   margin-bottom: 20px;
 }
 
-.info-box h1, .some-box h3{
-     background-color: #434254;
-  padding: 10px;
-  text-align: center;
-  font-family: 'Courier New', monospace;
-  margin-bottom: 20px;
-}
-
-
-.info-box p,
-.some-box p {
-  font-family: 'Courier New', monospace;
-  font-size: 16px;
-}
-
-
-.container-fluid {
-  padding-left: 0;
-  padding-right: 0;
-}
