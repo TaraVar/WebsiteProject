@@ -29,6 +29,22 @@ font-weight: 500;
 color: #000; 
 }
 
+.tuotteet h1 {
+ background-color: #838DE6;
+ color: white; 
+ width: 900px;
+margin: 16px auto 0px auto;
+     
+    }
+.tuotteet h2{
+    background-color: #434254;
+    color:white;
+    padding: 8px 16px 8px 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
 main {
  flex: 1; }
 
@@ -41,11 +57,6 @@ footer {
     margin-top: 80px;
 }
 
-.tuotteet h1 {
-    font-family:'Courier New', Courier, monospace
-}
-
-
 .ajankohtaista h1 {
  background-color: #838DE6;
  color: white; 
@@ -56,25 +67,21 @@ margin: 16px auto 0px auto;
 .ajankohtaista h2{
     background-color: #434254;
     color:white;
-    padding: 40px 60px;
+    padding: 8px 16px 8px 16px;
     margin-top: 16px;
     margin-bottom: 16px;
-    float:right;
 }
 
 .ajankohtaistakuva{
  
 margin-right: 60px;
 background-color: #838DE6;
-padding-bottom: 60px;
+
 }
 
 .kuvantausta{
-    background-color: #838DE6;
-    padding: 60px;
-    display:inline-flex;
-    margin-top: 50px;
+    background-color: #434254;
+    padding: 50px;
+    display:inline-block;
 
 }
-
-
