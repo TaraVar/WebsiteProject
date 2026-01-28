@@ -75,18 +75,19 @@ footer {
  color: white; 
  width: 900px;
 margin: 16px auto 0px auto;
-font-family:'Courier New', Courier, monospace
-     
+font-family:'Courier New', Courier, monospace;
+ padding: 10px;
+ margin-bottom: 20px;
     }
 .ajankohtaista h2{
     background-color: #434254;
-    color:white;
-    padding: 30px 40px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    float:right;
-    font-size: 20px;
-    font-family:'Courier New', Courier, monospace
+  padding: 30px;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 20px;
+
 
 }
 .ajankohtaistakuva{
