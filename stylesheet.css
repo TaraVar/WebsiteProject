@@ -38,22 +38,26 @@ footer {
     padding: 40px;
     color:black;
     text-align:center;
-    
     margin-top: 80px;
 }
 
 .ajankohtaista h1 {
  background-color: #838DE6;
  color: white; 
+ width: 900px;
+margin: 16px auto 0px auto;
      
     }
 .ajankohtaista h2{
     background-color: #434254;
     color:white;
+    padding: 8px 16px 8px 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 .ajankohtaistakuva{
-float: right; 
+ 
 margin-right: 60px;
 background-color: #838DE6;
 
@@ -63,8 +67,7 @@ background-color: #838DE6;
     background-color: #434254;
     padding: 50px;
     display:inline-block;
-    text-align: right;
 
-    
 }
+
 
