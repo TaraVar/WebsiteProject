@@ -51,6 +51,7 @@ footer {
     font-family:'Courier New', Courier, monospace
 }
 .Tuotteet h2{
+    margin-bottom:16px;
     background-color: #838DE6;
     color:white;
     padding: 30px 40px;
