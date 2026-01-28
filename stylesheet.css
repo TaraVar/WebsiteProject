@@ -29,10 +29,6 @@ font-weight: 500;
 color: #000; 
 }
 
-.tuotteet h1 {
-    font-family:'Courier New', Courier, monospace
-}
-
 main {
  flex: 1; }
 
@@ -44,6 +40,11 @@ footer {
     text-align:center;
     margin-top: 80px;
 }
+
+.tuotteet h1 {
+    font-family:'Courier New', Courier, monospace
+}
+
 
 .ajankohtaista h1 {
  background-color: #838DE6;
