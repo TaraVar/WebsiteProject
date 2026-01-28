@@ -55,7 +55,7 @@ margin: 16px auto 0px auto;
 .ajankohtaista h2{
     background-color: #434254;
     color:white;
-    padding: 8px 16px 8px 16px;
+    padding: 40px 60px;
     margin-top: 16px;
     margin-bottom: 16px;
     float:right;
@@ -69,7 +69,7 @@ padding-bottom: 60px;
 }
 
 .kuvantausta{
-    background-color: #434254;
+    background-color: #838DE6;
     padding: 60px;
     display:inline-flex;
     margin-top: 50px;
