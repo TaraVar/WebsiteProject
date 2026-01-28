@@ -160,3 +160,14 @@ margin-top: 16px;
     margin: 16px auto 0px auto;
     font-family:'Courier New', Courier, monospace
 }
+.Yhteystiedot h2{
+    margin-bottom:16px;
+    background-color: #838DE6;
+    color:white;
+    padding: 30px 40px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    float:right;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace
+}
