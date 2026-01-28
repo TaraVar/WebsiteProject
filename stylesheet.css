@@ -145,16 +145,19 @@ margin-top: 16px;
   background-color: #434254;
   padding: 10px;
   text-align: center;
-  font-family: 'Courier New', monospace;
+  font-family:'Courier New', Courier, monospace;
   margin-bottom: 20px;
+  font-size: 30px;
+  
 }
 
 .uutuudet-box h2{
  background-color: #838DE6;
   padding: 10px;
   text-align: center;
-  font-family: 'Courier New', monospace;
+  font-family:'Courier New', Courier, monospace;
   margin-bottom: 20px;
+  font-size: 30px;
 }
 
 .Yhteystiedot h1 {
@@ -163,7 +166,7 @@ margin-top: 16px;
     color: white; 
     width: 900px;
     margin: 16px auto 0px auto;
-    font-family:'Courier New', Courier, monospace
+    font-family:'Courier New', Courier, monospace;
 }
 .Yhteystiedot h2{
     margin-bottom:16px;
