@@ -1,211 +1,140 @@
-html,body{
-background-image: url(Images/Tausta.jpg);
-background-size: cover;
-margin:0;
-height: 100%;
-display: flex; 
-flex-direction: column;
- gap: 20px;
+
+html, body {
+    background-image: url(Images/Tausta.jpg);
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
 }
 
+header {
+    background-color: #947AE5;
+    padding: 40px;
+}
 
-header { 
-background-color: #947AE5; 
-padding: 40px;
+.logo {
+    max-height: 120px;
+}
 
-} 
-
-
-
-.logo { 
-max-height: 120px; 
-} 
-
-.nav-link {
-color: #000 ; 
-font-weight: 80px; 
-font-size: 20px;
-} 
-
-.language-switch {
-font-weight: 500; 
-color: #000; 
-font-size: 20px;
+.nav-link, .language-switch {
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
 }
 
 main {
- flex: 1; }
+    flex: 1;
+}
 
 footer {
     font-size: 16px;
-    background-color:#947AE5;
+    background-color: #947AE5;
     padding: 40px;
-    color:black;
+    color: black;
     margin-top: 80px;
 }
 
 
-.Tuotteet h1 {
-    margin-bottom: 16px;
-    background-color: #838DE6;
-    color: white; 
-    width: 900px;
-    margin: 16px auto 0px auto;
-    font-family:'Courier New', Courier, monospace
-}
-.Tuotteet h2{
-    margin-bottom:16px;
-    background-color: #838DE6;
-    color:white;
-    padding: 30px 40px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    float:right;
-    font-size: 20px;
-    font-family:'Courier New', Courier, monospace
-}
-
-.Tuotteet p{
-    background-color: #838DE6;
-    color: white; 
-    width: 900px;
-    margin: 16px auto 0px auto;
-    font-family:'Courier New', Courier, monospace   
-}
-
-.focus{
-    float:right;
-}
-
-.ajankohtaista h1 {
- background-color: #838DE6;
- color: white; 
- width: 900px;
- margin: 16px auto 0px auto;
- font-family:'Courier New', Courier, monospace;
- margin-bottom: 20px;
-}
-
-.ajankohtaista h2{
-  background-color: #434254;
-  padding: 30px;
-  text-align: center;
-  font-family: 'Courier New', monospace;
-  margin-bottom: 20px;
-  color: white;
-  font-size: 20px;
-
-}
-
-.ajankohtaistakuva{
-background-color: #838DE6;
-margin-top: 16px;
-
-}
-
-.kuvantausta{
-    background-color: #434254;
-    padding: 70px;
-    display:inline-block;
-    margin-bottom: 20px;
-    margin-top: 20px;
-
-}
-
-.Svenska h1{
-  background-color: #838DE6;
-  color: white; 
-  width: 900px;
-  margin: 16px auto 0px auto;
-  font-family:'Courier New', Courier, monospace  
-}
-
-.Svenska p{
-  background-color: #434254;
-  color: white; 
-  width: 900px;
-  margin: 16px auto 0px auto;
-  font-family:'Courier New', Courier, monospace  
-}
-
-.box {
-  padding: 20px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-
-.info-box, .some-box {
-  background-color: #434254;
-  color: white;
-}
-
-.uutuudet-box {
-  background-color: #838DE6;
-  color: white;
-}
-
-.info-box h1,
-.some-box h3 {
-  background-color: #434254;
-  padding: 10px;
-  text-align: center;
-  font-family:'Courier New', Courier, monospace;
-  margin-bottom: 20px;
-  font-size: 30px;
-  
-}
-
-.uutuudet-box h2{
- background-color: #838DE6;
-  padding: 10px;
-  text-align: center;
-  font-family:'Courier New', Courier, monospace;
-  margin-bottom: 20px;
-  font-size: 30px;
-}
-
-.Yhteystiedot h1 {
-    background-color: #838DE6;
+h1, h2, h3, p {
+    text-align: center;
     color: white;
+    background-color: #838DE6;
     max-width: 900px;
     width: 100%;
-    margin: 16px auto 0 auto;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+    margin: 16px auto;
+    box-sizing: border-box;
 }
+
+h2, h3 {
+    padding: 30px 40px;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p {
+    padding: 20px;
+    font-size: 18px;
+}
+
 
 .Yhteystiedot h2 {
     background-color: #434254;
-    color: white;
     padding: 80px 100px;
-    margin: 16px 0;
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
 }
 
 .Yhteystiedot h3 {
+    margin-top: 80px;
+}
+
+
+.ajankohtaista h2 {
+    background-color: #434254;
+    padding: 30px;
+    font-size: 20px;
+}
+
+
+.Svenska p {
+    background-color: #434254;
+}
+
+
+.box {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.info-box, .some-box {
+    background-color: #434254;
+    color: white;
+}
+
+.uutuudet-box {
     background-color: #838DE6;
     color: white;
-    padding: 30px 40px;
-    margin-top: 80px;
-    margin-bottom: 12px;
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.uutuudet-box h2 {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 @media (max-width: 768px) {
+    h1 { font-size: 22px; }
+    h2, h3, p { 
+        padding: 20px;
+        font-size: 16px; 
+    }
 
-  .Yhteystiedot h1 {
-    font-size: 22px;
-  }
+    header, footer {
+        padding: 20px;
+    }
 
-  .Yhteystiedot h2,
-  .Yhteystiedot h3 {
-    padding: 20px;
-    font-size: 16px;
-  }
+    .logo {
+        max-height: 80px;
+    }
 }
+
 
 
 
