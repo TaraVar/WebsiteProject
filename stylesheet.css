@@ -73,13 +73,13 @@ footer {
  background-color: #838DE6;
  color: white; 
  width: 900px;
-margin: 16px auto 0px auto;
-font-family:'Courier New', Courier, monospace;
- padding: 10px;
+ margin: 16px auto 0px auto;
+ font-family:'Courier New', Courier, monospace;
  margin-bottom: 20px;
-    }
+}
+
 .ajankohtaista h2{
-    background-color: #434254;
+  background-color: #434254;
   padding: 30px;
   text-align: center;
   font-family: 'Courier New', monospace;
@@ -87,14 +87,11 @@ font-family:'Courier New', Courier, monospace;
   color: white;
   font-size: 20px;
 
-
 }
+
 .ajankohtaistakuva{
- 
-margin-right: 60px;
 background-color: #838DE6;
 margin-top: 16px;
-    margin-bottom: 16px;
 
 }
 
@@ -104,7 +101,6 @@ margin-top: 16px;
     display:inline-block;
 
 }
-
 
 .Svenska h1{
   background-color: #838DE6;
@@ -122,11 +118,9 @@ margin-top: 16px;
   font-family:'Courier New', Courier, monospace  
 }
 
-
 .box {
   padding: 10px;
 }
-
 
 .info-box, .some-box {
   background-color: #434254;
@@ -137,7 +131,6 @@ margin-top: 16px;
   background-color: #838DE6;
   color: white;
 }
-
 
 .info-box h1,
 .some-box h3 {
