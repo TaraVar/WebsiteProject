@@ -71,13 +71,10 @@ font-family:'Courier New', Courier, monospace
     padding: 8px 16px 8px 16px;
     margin-top: 16px;
     margin-bottom: 16px;
-<<<<<<< Updated upstream
-=======
     float:right;
     font-size: 20px;
     font-family:'Courier New', Courier, monospace
->>>>>>> Stashed changes
-}
+
 
 .ajankohtaistakuva{
  
@@ -92,8 +89,7 @@ background-color: #838DE6;
     display:inline-block;
 
 }
-<<<<<<< Updated upstream
-=======
+
 
 .Svenska h1{
   background-color: #838DE6;
@@ -112,4 +108,4 @@ background-color: #838DE6;
 }
 
 
->>>>>>> Stashed changes
+
