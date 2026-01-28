@@ -41,6 +41,20 @@ footer {
     margin-top: 80px;
 }
 
+.Etusivu h1, p1{
+    background-color: #434254;
+    color:white;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    padding:10px;
+}
+
+
+
+
+
+
+
 .Tuotteet h1 {
     background-color: #838DE6;
     color: white; 
