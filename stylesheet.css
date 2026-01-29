@@ -166,6 +166,11 @@ margin-top: 16px;
   
 }
 
+p{
+  color: white;
+  font-family:'Courier New', Courier, monospace;
+}
+
 .uutuudet-box h2{
  background-color: #838DE6;
   padding: 10px;
