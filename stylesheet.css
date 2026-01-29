@@ -21,6 +21,14 @@ padding: 40px;
 max-height: 120px; 
 } 
 
+.ig-handle a {
+color: black; text-decoration: none;
+    } 
+
+.ig-handle a:hover {
+text-decoration: underline; 
+    }
+
 .nav-link {
 color: #000 ; 
 font-weight: bolder; 
