@@ -88,13 +88,13 @@ footer {
 
 .ajankohtaista h2{
   background-color: #434254;
-  padding: 70px;
   text-align: center;
   font-family: 'Courier New', monospace;
   margin-bottom: 20px;
   color: white;
   font-size: 20px;
   margin-left: 80px;
+  padding: 70px 100px;
 
   
 
@@ -132,7 +132,7 @@ margin-top: 16px;
 }
 
 .box {
-  padding: 20px;
+  padding: 90px;
   margin-bottom: 20px;
   margin-top: 20px;
 }
