@@ -54,12 +54,13 @@ footer {
 
 
 .Tuotteet h1 {
-    margin-bottom: 16px;
     background-color: #838DE6;
-    color: white; 
-    width: 900px;
-    margin: 16px auto 0px auto;
-    font-family:'Courier New', Courier, monospace
+    color: white;
+    max-width: 900px;
+    width: 100%;
+    margin: 16px auto 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 .Tuotteet h2{
     margin-bottom:16px;
@@ -86,12 +87,14 @@ footer {
 }
 
 .ajankohtaista h1 {
- background-color: #838DE6;
- color: white; 
- width: 900px;
- margin: 16px auto 0px auto;
- font-family:'Courier New', Courier, monospace;
- margin-bottom: 20px;
+    background-color: #838DE6;
+    color: white;
+    max-width: 900px;
+    width: 100%;
+    margin: 16px auto 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .ajankohtaista h2{
@@ -101,8 +104,9 @@ footer {
   margin-bottom: 20px;
   color: white;
   font-size: 20px;
-  margin-left: 80px;
   padding: 70px 100px;
+  max-width: 100%;
+  width: 100%;
 
   
 
@@ -124,30 +128,38 @@ margin-top: 16px;
 }
 
 .Svenska h1{
-  background-color: #838DE6;
-  color: white; 
-  width: 900px;
-  margin: 16px auto 0px auto;
-  font-family:'Courier New', Courier, monospace  
+    background-color: #838DE6;
+    color: white;
+    max-width: 900px;
+    width: 100%;
+    margin: 16px auto 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-bottom: 20px; 
 }
 
 .Svenska p{
   background-color: #434254;
   color: white; 
   width: 900px;
+  width: 100%;
   margin: 16px auto 0px auto;
-  font-family:'Courier New', Courier, monospace  
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 .box {
   padding: 90px;
   margin-bottom: 20px;
   margin-top: 20px;
+  width: 100%;
+  max-width: 100%;
 }
 
 .info-box, .some-box {
   background-color: #434254;
   color: white;
+  width: 100%;
 }
 
 .uutuudet-box {
@@ -169,6 +181,7 @@ margin-top: 16px;
 p{
   color: white;
   font-family:'Courier New', Courier, monospace;
+  width: 100%;
 }
 
 .uutuudet-box h2{
